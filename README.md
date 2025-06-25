@@ -6,4 +6,5 @@ After that , we had a training session of about 3 hours . In the session , first
 
 INSTALLATION OF LINUX - After that we had to install linux on our laptops. For this purpose we downloded Oracle Virtual Box 7.1.10. and Ubuntu (Linux) 24.04.2.
 
-![Image](https://github.com/user-attachments/assets/ee7262de-042e-4204-9283-b793f65b8a12)
+![Image](https://github.com/user-attachments/assets/ee7262de-042e-4204-9283-b793f65b8a12) ![Image](https://github.com/user-attachments/assets/a83f8d2b-17d8-4b21-9999-3245f4e8be80)
+
