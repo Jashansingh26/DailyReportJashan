@@ -1,3 +1,4 @@
 # TrainingTRCS201Jashan
 # DAY 1 
-On the first day of training
+On the first day of training , first of all we went to the auditorium where HOD mam of our department told us about the subjects , future projects , some rules that we have to follow in the future .
+After that , we had a training session of about 3 hours . In the session , first of all mam introduced us with our first topic of the training which is Fundamentals of Linux . Then mam told us about the history of Linux . Then we get to know that what are its applications , in which companies it is used .
