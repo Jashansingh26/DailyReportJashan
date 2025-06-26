@@ -20,3 +20,6 @@ Also we understood four types of shell i.e sh,bash,csh,ksh and two categories of
 
 ![Image](https://github.com/user-attachments/assets/3a44e1ab-d939-4157-8c79-a0bb3ed3b66c)
 
+#COMMANDS 
+We practised various commands such as ls , date , mkdir , whereis  , whatis , cat , cp , cd and many more . Here are some snapshots of the commands that i have practised .
+
