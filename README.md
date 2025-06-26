@@ -17,5 +17,6 @@ Then we started learning about KERNEL . Kernel refers to the core component of a
 ![Image](https://github.com/user-attachments/assets/3265cd12-f5a2-4a40-aeca-826d7ceca14f)
 
 Also we understood four types of shell i.e sh,bash,csh,ksh and two categories of shell i.e command line shell and graphical shell . Then we also get to know about file system structure.
+
 ![Image](https://github.com/user-attachments/assets/3a44e1ab-d939-4157-8c79-a0bb3ed3b66c)
 
