@@ -23,3 +23,14 @@ Also we understood four types of shell i.e sh,bash,csh,ksh and two categories of
 #COMMANDS 
 We practised various commands such as ls , date , mkdir , whereis  , whatis , cat , cp , cd and many more . Here are some snapshots of the commands that i have practised .
 
+![Image](https://github.com/user-attachments/assets/af3d6199-3f66-4d4a-85fe-7ea4257440b5)
+
+![Image](https://github.com/user-attachments/assets/3e3a3aa7-9a52-45ca-add1-ae630720e88e)
+
+![Image](https://github.com/user-attachments/assets/a3f916ed-959c-439e-a3e5-2275dcae1b5d)
+
+![Image](https://github.com/user-attachments/assets/02dcbf4e-c966-43af-9dfa-b85a4ecef8f7)
+
+![Image](https://github.com/user-attachments/assets/deb3bb2f-b82f-4f97-a008-7ade88ccea90)
+
+
