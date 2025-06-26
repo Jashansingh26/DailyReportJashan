@@ -1,4 +1,4 @@
-# TrainingTRCS201Jashan
+# Daily Report :
 # DAY 1️⃣ : 📖🖊
 On the first day of training , first of all we went to the auditorium where HOD mam of our department told us about the subjects , future projects , some rules that we have to follow in the future .
 
