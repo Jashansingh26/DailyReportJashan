@@ -10,7 +10,7 @@ INSTALLATION OF LINUX - After that we had to install linux on our laptops. For t
 
 ![Image](https://github.com/user-attachments/assets/76c47105-5c20-4122-9900-8b4c90b87e79)
 
-# DAY 2 :
+# DAY ⿢:
 On the second day , first of all we revised the topics covered on the first day. 
 
 Then we started learning about KERNEL . Kernel refers to the core component of an operating system. It manages the system's resources and allows communication between hardware and software. Then we learned about shell and it it works as an interface between user and Kernel . Mam explained this in a very interesting way with the help of following diagram .
