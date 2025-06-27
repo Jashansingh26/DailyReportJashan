@@ -22,6 +22,29 @@ Also we understood four types of shell i.e sh,bash,csh,ksh and two categories of
 
 #COMMANDS 
 We practised various commands such as ls , date , mkdir , whereis  , whatis , cat , cp , cd and many more . Here are some snapshots of the commands that i have practised .
+ls — List files and directories
+
+date — Show current date and time
+
+whereis — Locate binary, source, and man files
+
+whatis — Display brief command description
+
+mkdir — Create new directory
+
+pwd — Show current directory path
+
+mv — Move or rename files/directories
+
+cd — Change directory
+
+cp — Copy files or directories
+
+whoami — Show current logged-in username
+
+cat — Display file contents
+
+touch — Create empty file or update timestamp
 
 ![Image](https://github.com/user-attachments/assets/af3d6199-3f66-4d4a-85fe-7ea4257440b5)
 
