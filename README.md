@@ -156,17 +156,20 @@ So, this command lists and sorts the files in the current directory.
 
 # PRACTICE PROGRAMS
 ## Program 1 :
-- To find the greater between two numbers : 
+- To find the greater between two numbers :
+- 
 ![Image](https://github.com/user-attachments/assets/1c6673a3-a6b4-47ad-905c-98679be5d700)
 
 ![Image](https://github.com/user-attachments/assets/54a1d67d-2c3c-4736-82f2-daff542e76af)
 
 - To display various variables :
+- 
 ![Image](https://github.com/user-attachments/assets/bab98615-0971-4235-bbc8-ac90e9f262a7)
 
 ![Image](https://github.com/user-attachments/assets/3b8921fb-8299-49e2-ba39-8197d7e43750)
 
 - To print a multiplication table of a number :
+- 
 ![Image](https://github.com/user-attachments/assets/0c8e9a56-e468-4013-8a50-aa2e296b4342)
 
 ![Image](https://github.com/user-attachments/assets/9ea652af-c40e-47dd-81b5-ced894433142)
