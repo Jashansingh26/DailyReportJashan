@@ -51,42 +51,42 @@ We practised various commands such as ls , date , mkdir , whereis  , whatis , ca
 # DAY 3 :
 We started day 3 by revising some important terms and topics of previous two days which are as follows :
  # 🖥️ Dual Boot
-Dual booting allows a computer to run two different operating systems (OSes) on the same machine.
+ ·Dual booting allows a computer to run two different operating systems (OSes) on the same machine.
 
-Upon startup, users can choose which OS to boot into.
+·Upon startup, users can choose which OS to boot into.
 
-Common setups include Windows/Linux .
+·Common setups include Windows/Linux .
 
 # 📀 ISO File
-An ISO file is a disk image that contains the complete contents of a CD, DVD, or other optical media
+·An ISO file is a disk image that contains the complete contents of a CD, DVD, or other optical media
 
-These are commonly used to distribute Linux distributions and other bootable software.
+·These are commonly used to distribute Linux distributions and other bootable software.
 
 # 🧱 Bare Metal Installation
-A bare metal installation involves installing an operating system directly onto a computer’s hardware, without any virtual box .
+·A bare metal installation involves installing an operating system directly onto a computer’s hardware, without any virtual box .
 
-This is typically used for full hardware access.
+·This is typically used for full hardware access.
 
 # 💼 VMware
-VMware is a commercial virtualization platform known for its robust, enterprise-level features.
+·VMware is a commercial virtualization platform known for its robust, enterprise-level features.
 
-It offer strong performance, and professional support, making it ideal for production environments.
+·It offer strong performance, and professional support, making it ideal for production environments.
 
 # 🔧 VirtualBox
-VirtualBox is a free and open-source virtualization tool developed by Oracle.
+·VirtualBox is a free and open-source virtualization tool developed by Oracle.
 
-Best suited for personal use, development, and testing.
+·Best suited for personal use, development, and testing.
 
 # 🗂️ Partitioning Schemes
-Partitioning involves dividing a hard disk into multiple sections, called partitions.
+·Partitioning involves dividing a hard disk into multiple sections, called partitions.
 
-Each partition can house a separate file system or OS.
+·Each partition can house a separate file system or OS.
 
 Common schemes include:
 
-MBR (Master Boot Record) – older, supports up to 4 primary partitions, use bios .
+·MBR (Master Boot Record) – older, supports up to 4 primary partitions, use bios .
 
-GPT (GUID Partition Table) – newer, supports more partitions and is compatible with UEFI systems.
+·GPT (GUID Partition Table) – newer, supports more partitions and is compatible with UEFI systems.
 
 
 
