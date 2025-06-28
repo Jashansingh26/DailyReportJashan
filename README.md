@@ -48,7 +48,7 @@ We practised various commands such as ls , date , mkdir , whereis  , whatis , ca
 
 ![Image](https://github.com/user-attachments/assets/deb3bb2f-b82f-4f97-a008-7ade88ccea90)
 
-# DAY 3 :
+# DAY 3️⃣ :
 We started day 3 by revising some important terms and topics of previous two days which are as follows :
  # 🖥️ Dual Boot
  - Dual booting allows a computer to run two different operating systems (OSes) on the same machine.
