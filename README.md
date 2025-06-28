@@ -135,18 +135,18 @@ Redirection in Linux means sending the input or output of a command to a file or
 |------|--------|---------|-------------|
 | Input |	<	| wc -l < file.txt	| Reads file.txt as input to wc -l |
 
-🔗 Pipes in Linux (|)
+# 🔗 Pipes in Linux (|)
 A pipe takes the output of one command and sends it as input to another command.
 
 - Syntax
-- 
+ 
 command1 | command2
 command1 → generates output
 
 command2 → uses that output as its input
 
 - Example:
-- 
+ 
 ls | sort
 ls lists files
 
