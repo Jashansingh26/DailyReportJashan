@@ -25,25 +25,15 @@ We practised various commands such as ls , date , mkdir , whereis  , whatis , ca
 | Command | Description |
 |---------|------------ |
 | ls | List files and directories |
-
 | date |Show current date and time|
-
 | whereis | Locate binary, source, and man files|
-
 | whatis | Display brief command description|
-
 | mkdir | Create new directory|
-
 | pwd | Show current directory path |
-
 | mv | Move or rename files/directories |
-
 | cd | Change directory |
-
 | cp | Copy files or directories |
-
 | whoami | Show current logged-in username |
-
 | cat  Display file contents |
 
 | touch | Create empty file or update timestamp |
