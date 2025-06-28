@@ -88,6 +88,36 @@ Common schemes include:
 
 - GPT (GUID Partition Table) – newer, supports more partitions and is compatible with UEFI systems.
 
+# 🔐 File and Directory Permissions in Linux
+- Linux uses a permission model to control who can read, write, or execute files and directories.
+- 
+- *chmod* - chmod stands for "change mode", and it's a command used in Unix/Linux systems to set or modify the permissions of a file or directory.
+- Syntax - chmod [who][operator][permission] [file]
+Components:
+Who:
 
+u = user (owner)
+
+g = group
+
+o = others
+
+a = all (u+g+o)
+
+Operator:
+
++ = add permission
+
+- = remove permission
+
+= = set exact permission
+
+Permission:
+
+r = read
+
+w = write
+
+x = execute
 
 
