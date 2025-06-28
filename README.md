@@ -93,8 +93,9 @@ Common schemes include:
 - 
 - *chmod* - chmod stands for "change mode", and it's a command used in Unix/Linux systems to set or modify the permissions of a file or directory.
 - Syntax - chmod [who][operator][permission] [file]
+- 
 Components:
-Who:
+- Who:
 
 u = user (owner)
 
@@ -104,7 +105,7 @@ o = others
 
 a = all (u+g+o)
 
-Operator:
+- Operator:
 
 + = add permission
 
@@ -112,12 +113,45 @@ Operator:
 
 = = set exact permission
 
-Permission:
+- Permission:
 
 r = read
 
 w = write
 
 x = execute
+
+🔁 Redirection in Linux
+Redirection in Linux means sending the input or output of a command to a file or another command, instead of the default input/output (usually the terminal).
+
+📤 Output Redirection
+| Type	| Symbol	| Example	| Description |
+|------|--------|---------|-------------|
+| Output	| >	| echo "Hello" > file.txt	| Writes "Hello" to file.txt (overwrites it) |
+| Append	| >>	| echo "World" >> file.txt	| Appends "World" to the end of file.txt |
+
+📥 Input Redirection
+| Type	| Symbol	| Example	| Description |
+|------|--------|---------|-------------|
+| Input |	<	| wc -l < file.txt	| Reads file.txt as input to wc -l |
+
+🔗 Pipes in Linux (|)
+A pipe takes the output of one command and sends it as input to another command.
+
+- Syntax
+- 
+command1 | command2
+command1 → generates output
+
+command2 → uses that output as its input
+
+- Example:
+- 
+ls | sort
+ls lists files
+
+sort sorts the file names alphabetically
+
+So, this command lists and sorts the files in the current directory.
 
 
