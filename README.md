@@ -51,7 +51,7 @@ We practised various commands such as ls , date , mkdir , whereis  , whatis , ca
 # DAY 3 :
 We started day 3 by revising some important terms and topics of previous two days which are as follows :
  # 🖥️ Dual Boot
- ·Dual booting allows a computer to run two different operating systems (OSes) on the same machine.
+ - Dual booting allows a computer to run two different operating systems (OSes) on the same machine.
 
 ·Upon startup, users can choose which OS to boot into.
 
