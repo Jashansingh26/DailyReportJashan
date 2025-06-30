@@ -176,6 +176,31 @@ So, this command lists and sorts the files in the current directory.
 
 # DAY 4 :
 ### PC HARWARE :
+#  Motherboard (Main Circuit Board)
+
+The **motherboard** is the central printed circuit board (PCB) in a computer. It connects and allows communication between all critical components such as the CPU, RAM, storage devices, GPU, and power supply.
+
+---
+
+##  Key Components Found on the Motherboard
+
+| Component | Description |
+|-----------|-------------|
+| **CPU Socket** | The slot where the central processing unit (CPU) is installed. |
+| **RAM Slots (DIMM Slots)** | Sockets used to install RAM (memory) modules. |
+| **24-pin and 8-pin Power Connectors** | Supply electrical power to the motherboard and CPU. |
+| **SATA Ports** | Connect hard drives and solid-state drives (SSDs). |
+| **IDE Connector** | Used to connect legacy hard drives or optical drives. |
+| **AGP / PCI / PCIe Slots** | Expansion slots for graphics cards (GPU), sound cards, network cards, etc. |
+| **BIOS/UEFI Chip** | Stores low-level firmware needed to boot the system and configure hardware. |
+| **USB Ports** | Connect external devices like a keyboard, mouse, flash drive, etc. |
+| **Audio, VGA, HDMI, and Modem Ports** | Provide audio and video output, and modem connectivity. |
+| **Fan Connectors** | Supply power and control to system or CPU cooling fans. |
+| **Heat Sink Area** | Mounting point for a heat sink or cooler to dissipate CPU heat. |
+| **CMOS Battery** | Keeps the BIOS settings (like date/time) when the system is powered off. |
+
+
+
 ### FILE COMPRESSION :
 ### WILDCARD AND ESCAPING CHARACTERS :
 
