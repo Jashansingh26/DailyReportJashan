@@ -174,5 +174,9 @@ So, this command lists and sorts the files in the current directory.
 
 ![Image](https://github.com/user-attachments/assets/9ea652af-c40e-47dd-81b5-ced894433142)
 
+# DAY 4 :
+### PC HARWARE :
+### FILE COMPRESSION :
+### WILDCARD AND ESCAPING CHARACTERS :
 
 
