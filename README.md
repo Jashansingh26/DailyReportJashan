@@ -180,7 +180,7 @@ So, this command lists and sorts the files in the current directory.
 
 The **motherboard** is the central printed circuit board (PCB) in a computer. It connects and allows communication between all critical components such as the CPU, RAM, storage devices, GPU, and power supply.
 
----
+![WhatsApp Image 2025-06-30 at 11 38 07_2c833e5c](https://github.com/user-attachments/assets/87b796a6-0d09-4f03-9d42-82209fb2fc5b)
 
 ##  Key Components Found on the Motherboard
 
@@ -224,13 +224,13 @@ The **motherboard** is the central printed circuit board (PCB) in a computer. It
 
 ### FILE COMPRESSION :
 
-## 📦 What is File Compression?
+## What is File Compression?
 
 **File compression** is the process of reducing the size of files to save disk space or make them faster to transfer over networks. Compression works by encoding data more efficiently, often by removing redundancy.
 
 Compressed files can later be **decompressed (or uncompressed) .
 
-## 🔧 gzip, gunzip, and gzip -k Commands
+##  gzip, gunzip, and gzip -k Commands
 
 | Command      | Description                                    | Effect on Original File      | Output File          |
 |--------------|------------------------------------------------|-----------------------------|----------------------|
@@ -238,6 +238,28 @@ Compressed files can later be **decompressed (or uncompressed) .
 | `gunzip file.gz` | Decompresses the gzip compressed file          | Original `.gz` file is deleted | Decompressed `file`  |
 | `gzip -k file` | Compresses the file but keeps the original file | Original file is **kept**    | `file.gz` and original `file` |
 
-### WILDCARD AND ESCAPING CHARACTERS :
+### WILDCARDs : 
+
+## Wildcards in File Matching
+
+| Wildcard  | Meaning                                  | Example                 | Matches                                    |
+|-----------|------------------------------------------|-------------------------|--------------------------------------------|
+| `*`       | Matches zero or more characters           | `*.txt`                 | All files ending with `.txt` (e.g., `a.txt`, `file.txt`) |
+| `?`       | Matches exactly one character              | `file?.txt`             | `file1.txt`, `fileA.txt`, but not `file10.txt` |
+| `[a-z]`   | Matches any one character in the specified range | `file[0-9].txt`         | `file0.txt`, `file1.txt`, ..., `file9.txt` |
+
+## ESCAPING CHARACTERS :
+## Common Escape Characters
+
+| Escape Sequence | Meaning                 | Example Usage                | Output / Explanation             |
+|-----------------|-------------------------|------------------------------|---------------------------------|
+| `\n`            | Newline (line break)    | `Hello\nWorld`                |  
+Hello  
+World (prints on two lines)     |
+| `\t`            | Horizontal tab          | `Hello\tWorld`                | `Hello    World` (tab space)    |
+| `\\`            | Backslash character     | `C:\\Users\\Name`             | `C:\Users\Name`                 |
+| `\"`            | Double quote character  | `He said, \"Hello\"`          | He said, "Hello"                |
+| `\'`            | Single quote character  | `It\'s sunny`                 | It's sunny                     |
+
 
 
