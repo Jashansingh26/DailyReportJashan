@@ -200,6 +200,7 @@ The **motherboard** is the central printed circuit board (PCB) in a computer. It
 | **CMOS Battery** | Keeps the BIOS settings (like date/time) when the system is powered off. |
 
 ## Various components of CPU 
+![WhatsApp Image 2025-06-30 at 11 37 17_10a3fcc6](https://github.com/user-attachments/assets/bdd6b9a0-63be-4153-a6d4-6e26bdddc0dd)
 
 | Component | Description |
 |-----------|-------------|
@@ -238,6 +239,8 @@ Compressed files can later be **decompressed (or uncompressed) .
 | `gunzip file.gz` | Decompresses the gzip compressed file          | Original `.gz` file is deleted | Decompressed `file`  |
 | `gzip -k file` | Compresses the file but keeps the original file | Original file is **kept**    | `file.gz` and original `file` |
 
+![WhatsApp Image 2025-06-30 at 22 15 13_e8281f4a](https://github.com/user-attachments/assets/2c8d826c-2eeb-4b48-816e-5125f3e1a822)
+
 ### WILDCARDs : 
 
 ## Wildcards in File Matching
@@ -247,6 +250,8 @@ Compressed files can later be **decompressed (or uncompressed) .
 | `*`       | Matches zero or more characters           | `*.txt`                 | All files ending with `.txt` (e.g., `a.txt`, `file.txt`) |
 | `?`       | Matches exactly one character              | `file?.txt`             | `file1.txt`, `fileA.txt`, but not `file10.txt` |
 | `[a-z]`   | Matches any one character in the specified range | `file[0-9].txt`         | `file0.txt`, `file1.txt`, ..., `file9.txt` |
+
+![WhatsApp Image 2025-06-30 at 22 15 13_c6b044a0](https://github.com/user-attachments/assets/0dbd257f-9c00-4cd9-b40f-d77c1742e9c8)
 
 ## ESCAPING CHARACTERS :
 ## Common Escape Characters
@@ -260,6 +265,8 @@ World (prints on two lines)     |
 | `\\`            | Backslash character     | `C:\\Users\\Name`             | `C:\Users\Name`                 |
 | `\"`            | Double quote character  | `He said, \"Hello\"`          | He said, "Hello"                |
 | `\'`            | Single quote character  | `It\'s sunny`                 | It's sunny                     |
+![WhatsApp Image 2025-06-30 at 22 15 13_e619f683](https://github.com/user-attachments/assets/b510bc68-2972-429d-8e70-27760e7265d2)
+
 
 
 
