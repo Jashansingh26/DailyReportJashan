@@ -210,9 +210,34 @@ The **motherboard** is the central printed circuit board (PCB) in a computer. It
 | **Power Supply Unit (PSU)** | Converts AC power from a wall outlet into low-voltage DC power to run internal components. |
 | **Hard Disk Drive (HDD)** | Primary storage device for the operating system, files, and installed programs. May be replaced or supplemented by SSDs. |
 
+## Difference Between Hard Disk, RAM, and Cache Memory
 
+| Feature | Hard Disk (HDD/SSD) | RAM (Random Access Memory) | Cache Memory |
+|--------|----------------------|-----------------------------|---------------|
+| **Type** | Non-volatile storage | Volatile memory | Volatile memory |
+| **Speed** | Slowest among the three | Faster than HDD | Fastest memory |
+| **Purpose** | Stores OS, software, and files permanently | Temporarily holds data and programs currently in use | Temporarily stores frequently accessed data by the CPU |
+| **Location** | Separate storage device | Installed on the motherboard | Built into or very close to the CPU |
+| **Data Loss on Power Off** | No | Yes | Yes |
+| **Size (Typical)** | Hundreds of GB to several TB | 4 GB to 64 GB | Few MBs to tens of MBs |
+| **Cost per GB** | Lowest | Moderate | Highest |
 
 ### FILE COMPRESSION :
+
+## 📦 What is File Compression?
+
+**File compression** is the process of reducing the size of files to save disk space or make them faster to transfer over networks. Compression works by encoding data more efficiently, often by removing redundancy.
+
+Compressed files can later be **decompressed (or uncompressed) .
+
+## 🔧 gzip, gunzip, and gzip -k Commands
+
+| Command      | Description                                    | Effect on Original File      | Output File          |
+|--------------|------------------------------------------------|-----------------------------|----------------------|
+| `gzip file`   | Compresses the file using gzip                  | Original file is deleted     | `file.gz`            |
+| `gunzip file.gz` | Decompresses the gzip compressed file          | Original `.gz` file is deleted | Decompressed `file`  |
+| `gzip -k file` | Compresses the file but keeps the original file | Original file is **kept**    | `file.gz` and original `file` |
+
 ### WILDCARD AND ESCAPING CHARACTERS :
 
 
