@@ -121,7 +121,7 @@ w = write
 
 x = execute
 
-🔁 Redirection in Linux
+# Redirection in Linux
 Redirection in Linux means sending the input or output of a command to a file or another command, instead of the default input/output (usually the terminal).
 
 📤 Output Redirection
