@@ -199,6 +199,17 @@ The **motherboard** is the central printed circuit board (PCB) in a computer. It
 | **Heat Sink Area** | Mounting point for a heat sink or cooler to dissipate CPU heat. |
 | **CMOS Battery** | Keeps the BIOS settings (like date/time) when the system is powered off. |
 
+## Various components of CPU 
+
+| Component | Description |
+|-----------|-------------|
+| **Expansion Slots** | Allow installation of additional components like graphics cards, sound cards, or network cards to expand the system’s capabilities. |
+| **Fan** | Helps regulate the system’s temperature by expelling hot air and drawing in cool air to prevent overheating. |
+| **Optical Drive** | Used to read from and write to CDs and DVDs. Commonly used for media or software installation (less common today). |
+| **Connectors** | Includes USB, audio, HDMI, and other ports on the case to connect external devices like a keyboard, mouse, or speakers. |
+| **Power Supply Unit (PSU)** | Converts AC power from a wall outlet into low-voltage DC power to run internal components. |
+| **Hard Disk Drive (HDD)** | Primary storage device for the operating system, files, and installed programs. May be replaced or supplemented by SSDs. |
+
 
 
 ### FILE COMPRESSION :
