@@ -265,6 +265,8 @@ World (prints on two lines)     |
 | `\\`            | Backslash character     | `C:\\Users\\Name`             | `C:\Users\Name`                 |
 | `\"`            | Double quote character  | `He said, \"Hello\"`          | He said, "Hello"                |
 | `\'`            | Single quote character  | `It\'s sunny`                 | It's sunny                     |
+
+
 ![WhatsApp Image 2025-06-30 at 22 15 13_e619f683](https://github.com/user-attachments/assets/b510bc68-2972-429d-8e70-27760e7265d2)
 
 
