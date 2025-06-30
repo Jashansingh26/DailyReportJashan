@@ -260,6 +260,7 @@ Compressed files can later be **decompressed (or uncompressed) .
 |-----------------|-------------------------|------------------------------|---------------------------------|
 | `\n`            | Newline (line break)    | `Hello\nWorld`                |  Hello  
 World (prints on two lines)     |
+
 | `\t`            | Horizontal tab          | `Hello\tWorld`                | `Hello    World` (tab space)    |
 | `\\`            | Backslash character     | `C:\\Users\\Name`             | `C:\Users\Name`                 |
 | `\"`            | Double quote character  | `He said, \"Hello\"`          | He said, "Hello"                |
