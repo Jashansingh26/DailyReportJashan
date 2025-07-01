@@ -267,6 +267,38 @@ Compressed files can later be **decompressed (or uncompressed) .
 
 ![WhatsApp Image 2025-06-30 at 22 15 13_e619f683](https://github.com/user-attachments/assets/b510bc68-2972-429d-8e70-27760e7265d2)
 
+# DAY 5 : 
+# 💾 Hard Disk
+
+A **Hard Disk** (or Hard Disk Drive - HDD) is a non-volatile data storage device used in computers and other electronic devices. It stores digital data using magnetic storage and rotating platters.
+
+Hard disks are used to store:
+- Operating systems
+- Software applications
+- Files (documents, images, videos, etc.)
+- Backup data
+
+---
+
+## Components of a Hard Disk
+
+- **Platter**: Disk where data is magnetically stored.
+- **Spindle**: Rotates the platters.
+- **Read/Write Head**: Reads and writes data to the platter.
+- **Actuator Arm**: Moves the head to the right location.
+- **Controller Board**: Manages data flow between the hard disk and computer.
+
+---
+
+# 🔍 Types of Hard Disks
+
+
+| Type       | Speed     | Cost   | Capacity | Moving Parts | Best For                  |
+|------------|-----------|--------|----------|---------------|----------------------------|
+| HDD        | Slow      | Low    | High     | Yes           | Bulk storage, backups     |
+| SSD        | Fast      | High   | Medium   | No            | Laptops, OS drives        |
+| SSHD       | Moderate  | Medium | High     | Yes + No      | Everyday users            |
+| NVMe SSD   | Very Fast | High   | Medium   | No            | High-performance needs    |
 
 
 
