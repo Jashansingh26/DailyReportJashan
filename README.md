@@ -301,4 +301,23 @@ Hard disks are used to store:
 | NVMe SSD   | Very Fast | High   | Medium   | No            | High-performance needs    |
 
 
+### Common Reasons for slowing down of pc 
+
+- **Too many startup apps** – Apps auto-start when your PC turns on, slowing it down.  
+- **Background apps** – Programs running in the background use memory and slow things.  
+- **Viruses/malware** – Bad software that sneaks in and makes your PC act slow or weird.  
+- **Low RAM** – Not enough memory = lag when doing many things at once.  
+- **Full or messy hard drive** – Less space or messy files = slower PC, especially on HDDs.  
+- **Old hardware** – Older parts may not handle new software well.  
+- **Too many browser tabs/extensions** – Eats up RAM and slows your PC.  
+- **Overheating** – Hot PC slows itself down to cool off.  
+- **Outdated system or drivers** – Old updates or drivers = poor performance.  
+- **Low disk space** – Your PC needs free space to run smoothly.  
+- **Fancy visuals** – Cool effects = more work for your PC.  
+- **Heavy apps open** – Big programs running together slow things down.  
+- **Broken system files** – Damaged files = errors or slowness.  
+- **Unwanted apps** – Extra programs you don’t use can waste space and slow you down.  
+- **Old or dying hard drive** – Old drives (especially HDDs) get slower over time.
+- 
+
 
