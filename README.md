@@ -363,7 +363,6 @@ Hard disks are used to store:
 - **Unwanted apps**  
   *Fix:* Uninstall apps you never use from Control Panel or Settings.
 
-# DAY 6 : 
 # 💻 BSOD (Blue Screen of Death) – Troubleshooting Guide
 
 The **BSOD** is a critical Windows error screen that appears when the system encounters a severe issue, forcing an automatic shutdown to prevent damage. It’s commonly linked to hardware failures, driver conflicts, or corrupted system files.
@@ -413,5 +412,112 @@ Run `eventvwr.msc` → Go to **Windows Logs > System** to find events around the
 | **6** | **Reset BIOS/Overclocking** — Revert to default BIOS settings if you've overclocked. |
 | **7** | **System Restore** — Roll back to a restore point before the crashes started. |
 | **8** | **Update Windows** — Ensure all **Windows Updates** and security patches are installed.
+
+# DAY 6 : 
+# 🧰 Windows Recovery & Networking Essentials Guide
+
+This guide covers essential tools and techniques for troubleshooting Windows errors, malware issues, and networking basics like RJ45 connectors.
+
+---
+
+## 1. 🔐 Safe Mode
+
+**Safe Mode** is a diagnostic startup mode that loads only the essential system drivers and services. It’s helpful for isolating problems caused by third-party apps or drivers.
+
+### ✅ How to Access Safe Mode (Windows)
+- Press `Win + R`, type `msconfig`, go to **Boot** > Check **Safe boot**, then restart.
+- Or, force shutdown the PC **three times** to trigger **Windows Recovery Environment**, then:
+  - Go to **Troubleshoot** > **Advanced Options** > **Startup Settings** > Restart
+  - Press **4** (Safe Mode) or **5** (Safe Mode with Networking)
+
+---
+
+## 2. 🧰 Recovery Tools
+
+Windows provides built-in tools to repair or recover your system.
+
+### 🔧 Common Recovery Options
+- **System Restore** — Roll back to a previous working configuration.
+- **Startup Repair** — Automatically fixes boot-related issues.
+- **Command Prompt** — Run advanced commands and diagnostic tools.
+- **Reset This PC** — Reinstalls Windows (option to keep or remove files).
+
+---
+
+## 3. 🛠️ Operating System Repair Methods
+
+If system files are corrupt or missing, use these repair commands:
+
+- `sfc /scannow` — Scans and restores system file integrity.
+- `chkdsk /f /r` — Checks for and repairs hard disk errors.
+- `DISM /Online /Cleanup-Image /RestoreHealth` — Fixes corrupted Windows system images.
+
+---
+
+## 4. 🦠 Virus & Malware Symptoms
+
+Watch for these common signs of infection:
+
+- Sluggish system performance
+- Unexpected pop-ups or browser redirects
+- Programs opening/closing by themselves
+- Antivirus or firewall disabled
+- High CPU or disk usage
+- Unknown apps installed without permission
+
+---
+
+## 5. 🧹 Basic Malware Removal Steps
+
+### Step-by-Step Guide
+1. Boot into **Safe Mode with Networking**
+2. Uninstall suspicious programs from **Control Panel** or **Settings**
+3. Run a full antivirus scan using:
+   - **Windows Defender**
+   - **Malwarebytes**
+   - **HitmanPro**
+4. Delete temporary files using **Disk Cleanup**
+5. Reset browser settings (Chrome, Edge, Firefox)
+6. Update Windows and antivirus definitions
+
+---
+
+## 🔌 RJ45 Networking Essentials
+
+This section provides a reference for RJ45 connectors, Ethernet cabling standards, and how to crimp your own cables.
+
+### 📘 What is RJ45?
+
+**RJ45** (Registered Jack 45) is an 8-pin connector widely used in **Ethernet networks**. It connects devices such as PCs, routers, and switches using twisted-pair cables.
+
+---
+
+### 🧷 RJ45 Pinout Standards
+
+There are two major wiring schemes:
+
+#### ✅ T568B Standard (Most Common)
+
+| Pin | Wire Color     | Function |
+|-----|----------------|----------|
+| 1   | Orange/White   | TX+      |
+| 2   | Orange         | TX-      |
+| 3   | Green/White    | RX+      |
+| 4   | Blue           | —        |
+| 5   | Blue/White     | —        |
+| 6   | Green          | RX-      |
+| 7   | Brown/White    | —        |
+| 8   | Brown          | —        |
+
+---
+
+### 🛠️ How to Crimp an RJ45 Connector
+
+1. Strip ~1 inch of the cable’s outer insulation.
+2. Untwist and arrange wires using the **T568B** or **T568A** standard.
+3. Trim all wires evenly to the same length.
+4. Insert wires into the RJ45 plug, ensuring proper order.
+5. Use a **crimping tool** to secure the connector.
+6. **Test the cable** using a cable tester for connectivity.
 
 
