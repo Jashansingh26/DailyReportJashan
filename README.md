@@ -498,16 +498,16 @@ There are two major wiring schemes:
 
 #### ✅ T568B Standard (Most Common)
 
-| Pin | Wire Color     | Function |
-|-----|----------------|----------|
-| 1   | Orange/White   | TX+      |
-| 2   | Orange         | TX-      |
-| 3   | Green/White    | RX+      |
-| 4   | Blue           | —        |
-| 5   | Blue/White     | —        |
-| 6   | Green          | RX-      |
-| 7   | Brown/White    | —        |
-| 8   | Brown          | —        |
+| Pin | Wire Color     | 
+|-----|----------------|
+| 1   | Orange/White   |
+| 2   | Orange         |
+| 3   | Green/White    |
+| 4   | Blue           |
+| 5   | Blue/White     |
+| 6   | Green          | 
+| 7   | Brown/White    |
+| 8   | Brown          | 
 
 ---
 
