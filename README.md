@@ -363,7 +363,55 @@ Hard disks are used to store:
 - **Unwanted apps**  
   *Fix:* Uninstall apps you never use from Control Panel or Settings.
 
-- **Old or**
-- 
+# DAY 6 : 
+# 💻 BSOD (Blue Screen of Death) – Troubleshooting Guide
+
+The **BSOD** is a critical Windows error screen that appears when the system encounters a severe issue, forcing an automatic shutdown to prevent damage. It’s commonly linked to hardware failures, driver conflicts, or corrupted system files.
+
+---
+
+## ⚠️ Common Causes
+- Outdated or faulty **device drivers**
+- **Corrupt system files** or registry entries
+- **Incompatible, failing, or overheating hardware** (RAM, GPU, hard drive)
+- Improper **BIOS settings** or overclocking
+- **Malware or rootkits** interfering with low-level system functions
+
+---
+
+## 🧠 How to Analyze a BSOD
+
+### 1. 🔍 Identify the Stop Code
+Look for the **stop error** name on the BSOD screen (e.g. `CRITICAL_PROCESS_DIED`, `IRQL_NOT_LESS_OR_EQUAL`).
+
+### 2. 🕵️ Use Reliability Monitor
+Search for **Reliability Monitor** from the Start menu. Check for warnings or critical events just before the crash.
+
+### 3. 🧾 Analyze Minidump Files
+Crash dumps are saved to:  
+`C:\Windows\Minidump`
+
+Analyze with tools like:
+- [BlueScreenView (NirSoft)](https://www.nirsoft.net/utils/blue_screen_view.html)
+- [WinDbg (Microsoft)](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/)
+- [WhoCrashed](https://www.resplendence.com/whocrashed)
+
+### 4. 📋 Check the Event Viewer
+Run `eventvwr.msc` → Go to **Windows Logs > System** to find events around the time of the crash.
+
+---
+
+## 🧰 How to Fix a BSOD
+
+| 🔢 Step | 🛠️ Action |
+|--------|-----------|
+| **1** | **Update Drivers** — Use **Device Manager** or OEM tools to update graphics, chipset, and network drivers. |
+| **2** | **Uninstall Recent Changes** — Remove any apps or drivers installed shortly before the BSOD began. |
+| **3** | **System File Check** — Run `sfc /scannow` from Command Prompt (Admin). |
+| **4** | **Check RAM** — Use the **Windows Memory Diagnostic** tool. |
+| **5** | **Scan for Malware** — Run a full scan using **Windows Defender** or **Malwarebytes**. |
+| **6** | **Reset BIOS/Overclocking** — Revert to default BIOS settings if you've overclocked. |
+| **7** | **System Restore** — Roll back to a restore point before the crashes started. |
+| **8** | **Update Windows** — Ensure all **Windows Updates** and security patches are installed.
 
 
