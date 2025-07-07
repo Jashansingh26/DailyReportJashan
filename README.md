@@ -843,3 +843,43 @@ A **default gateway** is typically a **router** that connects your local network
 - Sends data outside the local network
 - Without it, devices can’t access the internet
 
+### DAY 9 :
+# 🌐 Introduction to HTML & Web Basics
+
+## 📄 What is HTML?
+
+**HTML** stands for **HyperText Markup Language**.  
+It is the **standard language used to create web pages and web applications**.
+
+### ✨ Key Points:
+- HTML defines the **structure** and **content** of a web page.
+- It uses **tags** (like `<h1>`, `<p>`, etc.) to mark up content.
+
+---
+
+## 🧠 How Browsers Render HTML
+
+1. The **browser reads** the HTML file line by line.
+2. It constructs the **DOM** (Document Object Model) — a tree-like representation of the HTML structure.
+3. The browser then displays the content **visually**, using:
+   - **HTML** for structure
+   - **CSS** for styling
+   - **JavaScript** for interactivity (optional)
+
+---
+
+## 🏗️ Basic Structure of an HTML Document
+
+```html
+<!DOCTYPE html>          <!-- Declares this is an HTML5 document -->
+<html>                   <!-- Root element -->
+  <head>                 <!-- Contains meta and config info -->
+    <title>Page Title</title>   <!-- Title shown in browser tab -->
+  </head>
+  <body>                 <!-- Visible content of the page -->
+    <h1>Main Heading</h1>      <!-- Large heading -->
+    <p>This is a paragraph.</p> <!-- Paragraph text -->
+  </body>
+</html>
+
+
