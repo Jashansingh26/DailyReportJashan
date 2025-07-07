@@ -697,41 +697,149 @@ Wrote 3 sample shell scripts.
 ---
 
 ## Day 7: Networking Basics
+# 🖧 Networking Concepts
 
-### 🖥 Host
-Any device connected to a network (PC, phone, camera, etc.)
-
-### 🌐 Network
-A group of devices connected via Ethernet or Wi-Fi.
-
-### 🔢 IP Addressing
-
-| Type | Description |
-|------|-------------|
-| Public IP | Provided by ISP, used on the internet |
-| Private IP | Used within home/office LANs |
-
-### IPv4 vs IPv6
-
-| Feature | IPv4 | IPv6 |
-|--------|------|------|
-| Size | 32-bit | 128-bit |
-| Format | 192.168.1.1 | 2001:db8::7334 |
-| Total Addresses | ~4.3 billion | 340 undecillion |
-| Config | Manual/DHCP | Auto/DHCPv6 |
-| Security | Optional | Built-in IPSec |
-
-### 📊 Binary & Decimal Notation
-
-IPv4 (binary): `11000000.10101000.00000001.00000001`  
-IPv4 (decimal): `192.168.1.1`
-
-### 🧩 IP Classes (Classful)
-
-| Class | Starting Bits | IP Range | Subnet Mask |
-|-------|----------------|----------|-------------|
-| A | 0 | 1.0.0.0 – 126.0.0.0 | 255.0.0.0 |
-| B | 10 | 128.0.0.0 – 191.255.0.0 | 255.255.0.0 |
-| C | 110 | 192.0.0.0 – 223.255.255.0 | 255.255.255.0 |
+## 🔌 Network
+A **network** is a group of two or more interconnected computer systems that share data and resources through communication channels.
 
 ---
+
+## 🖥️ Host
+A **host** is any network-connected device assigned with an IP address, allowing it to participate in communication over a network.
+
+---
+
+## 🗄️ Server
+A **server** is a powerful host machine that runs server software and responds to client requests—such as hosting websites, storing files, or managing emails.
+
+---
+
+## 👤 Client
+In a **client-server** network, the client refers to the device or software that initiates requests and interacts with the user.
+
+---
+
+## 📶 Traffic
+**Network traffic** refers to the flow of data packets across a network. It includes all communication types such as:
+
+- Browsing
+- File transfers
+- Video streaming
+- Emails
+- And more
+
+---
+
+# 🌐 IP Address
+
+### Full Form
+**Internet Protocol**, a set of rules governing data transmission over networks.
+
+### Properties
+- **Unique:** Each device has a unique IP.
+- **Universal:** Globally accepted for identification and communication.
+
+### Types
+- **Public IP:** Routable on the internet; globally unique.
+- **Private IP:** Used within private networks (home/school); not routable on the internet.
+
+### Dynamic Nature
+IP addresses can change (dynamic assignment), but the core concepts of **uniqueness** and **universality** remain.
+
+---
+
+## 🔢 IPv4 – Internet Protocol Version 4
+
+An IPv4 address is a 32-bit number divided into four 8-bit sections called **octets**, written in dot-decimal notation.
+
+### Format
+Example: `185.107.80.231`
+
+Each octet ranges from 0 to 255 and is written in decimal for readability
+
+---
+
+## 🆕 IPv6 – Internet Protocol Version 6
+
+IPv6 was introduced to overcome IPv4 address exhaustion. It uses **128-bit** addresses, written in **hexadecimal** and separated by colons `:`.
+
+### Format
+- 8 groups
+- Each group = 16 bits = 2 bytes
+- Each hex digit = 4 bits
+- Example: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
+
+---
+
+## 🏷️ IP Address Classes
+
+| Class | Range                  | Default Subnet Mask     | Used For         |
+|-------|------------------------|--------------------------|------------------|
+| A     | 1.0.0.0 – 126.0.0.0    | 255.0.0.0                | Large networks   |
+| B     | 128.0.0.0 – 191.255.0.0| 255.255.0.0              | Medium networks  |
+| C     | 192.0.0.0 – 223.255.255.0 | 255.255.255.0          | Small networks   |
+
+---
+
+## 📡 Unicast vs Multicast vs Broadcast
+
+| Type     | Description                                |
+|----------|--------------------------------------------|
+| Unicast  | One-to-one communication                   |
+| Multicast| One-to-many (selected group) communication |
+| Broadcast| One-to-all devices on the network          |
+
+---
+
+## ✂️ Subnetting
+
+**Subnetting** is dividing a large network into smaller logical subnetworks (subnets) to optimize performance and management.
+
+### Benefits:
+- Reduces congestion  
+- Enhances security  
+- Efficient IP usage  
+- Simplifies troubleshooting  
+
+---
+
+## 🆔 MAC Address
+
+A **MAC (Media Access Control) address** is a **48-bit** hardware identifier assigned to a network interface card (NIC) by the manufacturer.
+
+### Key Features:
+- Hard-coded in hardware (can be changed in software)
+- Written in **hexadecimal** (e.g., `00:1A:2B:3C:4D:5E`)
+- Used for **local** (LAN) communication
+
+---
+
+## 🌍 DNS – Domain Name System
+
+DNS translates **domain names** (like `youtube.com`) into **IP addresses** (`142.250.195.14`) that computers can understand.
+
+### Why DNS is Needed:
+- Humans remember names, not numbers.
+- Computers use numbers (IP).
+- DNS bridges the gap.
+
+### How DNS Works:
+1. User types `www.example.com`
+2. Browser asks **DNS resolver** for the IP
+3. Resolver queries:
+   - 🧱 Root server
+   - 🏛️ TLD server (`.com`, `.org`)
+   - 🗂️ Authoritative server (holds domain info)
+4. IP is returned and browser loads the site
+
+---
+
+## 🚪 Default Gateway
+
+A **default gateway** is typically a **router** that connects your local network to the outside world (internet or other networks).
+
+### Importance:
+- Acts as a communication bridge
+- Sends data outside the local network
+- Without it, devices can’t access the internet
+
