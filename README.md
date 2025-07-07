@@ -843,7 +843,7 @@ A **default gateway** is typically a **router** that connects your local network
 - Sends data outside the local network
 - Without it, devices can’t access the internet
 
-### DAY 8 : 
+## DAY 8 : 
 # Networking Commands
 
 ## **PING**
@@ -940,7 +940,7 @@ ipconfig
 | Internet     | A global network of interconnected systems using IP              | Global WAN                |
 
 
-### DAY 9 :
+## DAY 9 :
 # 🌐 Introduction to HTML & Web Basics
 
 ## 📄 What is HTML?
