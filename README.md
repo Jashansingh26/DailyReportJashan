@@ -843,6 +843,103 @@ A **default gateway** is typically a **router** that connects your local network
 - Sends data outside the local network
 - Without it, devices can’t access the internet
 
+### DAY 8 : 
+# Networking Commands
+
+## **PING**
+**Meaning:**  
+"Hey, are you there?"  
+The `ping` command checks if another computer, server, or website is online and reachable from your device. It works by sending ICMP (Internet Control Message Protocol) Echo Request packets to the target host.
+
+- If a reply is received: The host is reachable and online.  
+- If no reply is received: The host may be offline or blocking ICMP traffic.
+
+**Syntax:**
+```
+ping [website_address or IP]
+```
+
+**Example:**
+```
+ping google.com
+```
+
+---
+
+## **Loopback Address (127.0.0.1)**
+**Description:**  
+The loopback IP address `127.0.0.1` always refers to your **own computer**. It's used to test the local network configuration.
+
+**Analogy:**  
+Like sending a letter to your own house to check if your mailbox is working.
+
+**Usage:**
+```
+ping 127.0.0.1
+```
+
+---
+
+## **TRACEROUTE**
+**Purpose:**  
+The `traceroute` (or `tracert` on Windows) command shows the path that data packets take from your computer to a destination (like a website). It helps identify where delays or failures occur in the network path.
+
+**How It Works:**
+- Sends packets with increasing Time-To-Live (TTL) values.
+- Each router that discards the packet sends back an error message.
+- This helps trace the path hop-by-hop to the destination.
+
+**Windows Syntax:**
+```
+tracert [hostname or IP address]
+```
+
+**Example:**
+```
+tracert google.com
+```
+
+---
+
+## **IPCONFIG (Windows)**
+**Purpose:**  
+Displays all current TCP/IP network configuration values and allows refreshing DHCP and DNS settings. Useful for troubleshooting and managing network settings.
+
+**Basic Usage:**
+```
+ipconfig
+```
+
+**Output includes:**
+- IPv4 and IPv6 addresses
+- Subnet Mask
+- Default Gateway
+
+> ⚠️ The command `ipconfig` does **not** accept a website or IP address as an argument.
+
+---
+
+### **Common Terms**
+| Term       | Description                                            |
+|------------|--------------------------------------------------------|
+| `inet`     | IP address                                             |
+| `netmask`  | Defines the range of the network                       |
+| `lo0`      | Loopback interface (used for testing local machine)    |
+| `broadcast`| Sends data to all devices on the network               |
+
+---
+
+## **Comparison of Network Types**
+
+| Network Type | Definition                                                       | Type                      |
+|--------------|------------------------------------------------------------------|---------------------------|
+| Ethernet     | Wired technology for local area networking                       | LAN Technology (Wired)    |
+| Wi-Fi        | Wireless technology for local area networking                    | LAN Technology (Wireless) |
+| LAN          | Connects devices within a small area (home, office)              | Local Network             |
+| WAN          | Covers a large area, often connecting multiple LANs              | Wide Network              |
+| Internet     | A global network of interconnected systems using IP              | Global WAN                |
+
+
 ### DAY 9 :
 # 🌐 Introduction to HTML & Web Basics
 
