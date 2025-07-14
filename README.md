@@ -523,178 +523,18 @@ There are two major wiring schemes:
 
 This repository documents the daily learnings and activities completed during the TRCS201 training program.
 
----
 
-## Day 1: Introduction to Linux & Tools Setup
 
-- Introduction to **Linux** as an open-source (free) operating system.
-- Key differences between **Linux and Windows**.
-- Downloaded and installed:
-  - VirtualBox
-  - Visual C++
-  - Ubuntu 24.04.2
 
----
 
-## Day 2: Kernel, Shell & File System
 
-- **Recap** of Day 1.
-- **Kernel**: The core of an OS, manages memory, processes, and hardware.
-- **Shell**: Interface between user and kernel. It interprets commands.
 
-### File System Structures
 
-Practiced Linux commands to understand directory and file structures.
-> _Images included in repository for command practice reference._
-
----
-
-## Day 3: Dual Boot, ISO, Partitioning & Permissions
-
-### 🔁 Dual Boot Setup
-- Run multiple OSes (e.g., Windows + Linux) on one machine.
-
-### 💿 ISO Files
-- ISO = Disk image used to install OS or distribute software.
-
-### 🖥️ Bare Metal Installation
-- Installing OS directly on hardware (no virtualization).
-
-### 💻 Virtualization
-| Tool       | Description                               |
-|------------|-------------------------------------------|
-| **VMware** | Enterprise-grade, high performance        |
-| **VirtualBox** | Free, easy to use, best for testing |
-
-### 💽 Disk Partitioning
-
-| Type | Features |
-|------|----------|
-| **MBR** | Max 4 primary partitions, 2TB limit |
-| **GPT** | 128+ partitions, supports >2TB, UEFI |
-
-### 🔐 Permissions & Shell Scripting
-
-Practiced:
-- `chmod +x script.sh`
-- `chmod 444 file.txt`
-
-Wrote 3 sample shell scripts.  
-> _Code screenshots available in the repo._
-
----
-
-## Day 4: Compression, Wildcards, Escaping, Hardware
-
-### 📦 File Compression with GZIP
-- `gzip filename.txt` → Compress
-- `gunzip filename.txt.gz` → Decompress
-- `gzip -k file.txt` → Keep original
-
-### 🃏 Wildcards in Linux
-
-| Symbol | Meaning | Example |
-|--------|---------|---------|
-| `*` | Matches any characters | `ls *.txt` |
-| `?` | Matches single character | `report?.txt` |
-| `[ ]` | Matches one character from set | `file[1-3].txt` |
-| `[! ]` | Not in the set | `file[!0-9].txt` |
-| `{a,b}` | Matches listed strings | `file{1,2}.txt` |
-
-### 💬 Escaping & Quoting
-
-| Method | Description | Example |
-|--------|-------------|---------|
-| `\` | Escape next char | `\$HOME` |
-| `' '` | Literal | `'*.txt'` |
-| `" "` | Expands vars | `"My home is $HOME"` |
-
-### 🧩 Computer Hardware Overview
-
-| Component | Function |
-|----------|----------|
-| CPU | Brain of the computer |
-| Motherboard | Connects all hardware |
-| RAM | Temporary memory |
-| HDD/SSD | Long-term storage |
-| PSU | Power supply |
-| Input/Output Devices | Keyboard, Monitor, Printer, etc. |
-| GPU | Manages graphics |
-
-#### 📋 Motherboard Components
-- CPU socket, RAM slots, BIOS chip, expansion slots, SATA ports
-
-#### 📐 Motherboard Form Factors
-
-| Type | Use |
 |------|-----|
 | ATX | Full-size, expandable |
 | Micro-ATX | Compact, fewer slots |
 | Mini-ITX | Very compact, small PCs |
 
----
-
-## Day 5: Troubleshooting PC Issues
-
-### ⚙️ Performance Issues
-- **C Drive Full** → Use Disk Cleanup, move files
-- **Slow PC** → Disable startup apps, clean temp files
-- **Disk Fragmentation** (HDD) → Run defragmenter
-- **Startup Time** → Reduce startup programs
-
-### 🛠️ Software Issues
-- **Freezing Apps** → Reinstall/update
-- **Install Errors** → Use admin rights, check 32/64-bit
-- **Windows Update Fail** → Clear update cache
-
-### 🔌 Hardware Issues
-- **Printer Issues** → Restart, reinstall drivers
-- **Drive Not Showing** → Assign letter in Disk Management
-- **Overheating** → Clean fans, reapply thermal paste
-
-### 🌐 Networking Issues
-- **DNS Problems** → `ipconfig /flushdns`, restart router
-- **Antivirus Slows PC** → Use a single AV
-
-### 👤 Login & Display
-- **Forgot Password** → Use Safe Mode or MS account recovery
-- **Graphics Lag** → Update drivers
-
-### 💥 BSOD (Blue Screen of Death)
-#### Common Causes:
-- Drivers, hardware failure, overheating, malware
-
-#### How to Fix:
-1. Update drivers
-2. Remove recent software
-3. `sfc /scannow`
-4. Check RAM
-5. Scan for malware
-6. Reset BIOS
-7. System restore
-8. Install updates
-
----
-
-## Day 6: Recovery Tools, Malware, Safe Mode
-
-### 🧯 Safe Mode
-- Diagnostic mode with minimal drivers.
-- Access: `msconfig` or recovery menu.
-
-### 🔧 Recovery Tools
-- **System Restore**, **Startup Repair**, **Reset PC**, **Command Prompt**
-
-### 🛠 OS Repair
-- `sfc /scannow` – System File Checker
-- `chkdsk /f /r` – Fix disk errors
-- `DISM /Online /Cleanup-Image /RestoreHealth`
-
-### 🦠 Malware Symptoms & Removal
-- Signs: Slow PC, ads, high CPU, unknown apps
-- Steps: Safe Mode, uninstall, scan with Defender/Malwarebytes, delete temp files
-
----
 
 ## Day 7: Networking Basics
 # 🖧 Networking Concepts
