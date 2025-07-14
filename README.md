@@ -964,30 +964,7 @@ It is the **standard language used to create web pages and web applications**.
    - **JavaScript** for interactivity (optional)
 
 ---
-
-## 🏗️ Basic Structure of an HTML Document
-
-```html
-<!DOCTYPE html>          <!-- Declares this is an HTML5 document -->
-<html>                   <!-- Root element -->
-  <head>                 <!-- Contains meta and config info -->
-    <title>Page Title</title>   <!-- Title shown in browser tab -->
-  </head>
-  <body>                 <!-- Visible content of the page -->
-    <h1>Main Heading</h1>      <!-- Large heading -->
-    <p>This is a paragraph.</p> <!-- Paragraph text -->
-  </body>
-</html>
-
 #  DAY : 10  
-🌐 **Introduction to HTML & Web Basics**
-
----
-
-### ✅ What is HTML?  
-**HTML (HyperText Markup Language)** is the basic language used to build web pages. It helps organize and display content using special codes called tags, which browsers can understand.
-
----
 
 ### 🔖 Common HTML Tags
 
